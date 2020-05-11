@@ -14,6 +14,11 @@ for x in getcont:
         print("")
         print(x)
         for data in url:
-            print(data)
+            if not data.startswith ('"http://schemas.openxmlformats.org/') \
+                and not data.startswith('"http://schemas.microsoft.com/') \
+                and not data.startswith('"http://purl.org/') \
+                and not data.startswith('"http://www.w3.org/'):
+                    print(data)
         continue
 zf.close()
+
