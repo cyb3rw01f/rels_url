@@ -10,7 +10,7 @@ RELS files serve as markers for the documents that they pertain to. They allow t
 
 The RELS file format is only compatible with the more recent versions of the Microsoft Office applications which support Open Office XML documents. The RELS files are saved in the directory of the Open Office XML document.
 
-## How threat actors use the RELS files for malicious purposes  
+## How threat actors use .rels files for malicious purposes  
 Threat actors can use the RELS file to access URLs and download a dropper file. This tactic is very sneaky since the .rels files are read when a document is opened and before the user can interact with the document. The user is not prompted to allow the URL to be accessed.  
 
 ## Example of a .rels file  
